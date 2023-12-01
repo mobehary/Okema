@@ -1,0 +1,70 @@
+// max only
+
+@media(max-width: 350px){
+    
+}
+@media(max-width: 520px){
+    .login{
+        .card{
+            width: 100% !important;
+        }
+    }
+    .add-new-device{
+        width: 100% !important;
+    }
+}
+@media(max-width: 550px){
+    .tab-links{
+        margin-bottom: 20px;
+    }
+    .verification-code--inputs input[type=text]{
+        width: 75px !important;
+    }
+    .footer-logo{
+        img{
+            height: 30px !important;
+        }
+    }
+}
+@media(max-width: 767px){
+    .d-sm-flex{
+        display: flex !important;
+    }
+    .verify{
+        width: 100%;
+    }
+    .justify-content-start-sm{
+        justify-content: start !important;
+    }
+
+}
+@media(max-width: 990px){
+
+}
+@media(max-width: 1199px){
+
+}
+@media(max-width: 1300px){
+
+}
+
+// ranges
+
+@media(min-width: 320px) and (max-width: 550px) {
+    
+}
+@media(min-width: 551px) and (max-width: 767px) {
+
+}
+@media(min-width: 768px) and (max-width: 990px) {
+
+}
+@media(min-width: 991px) and (max-width: 1199px) {
+
+}
+@media(min-width: 1200px) and (max-width: 1299px) {
+
+}
+@media(min-width: 1300px) {
+
+}

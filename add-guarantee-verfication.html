@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Images/Logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap-rtl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Okema | أوكيما</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container">
+              <a class="navbar-brand" href="/index.html"><img src="assets/Images/Logo.png" height="55px" class="of-contain" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-lg-flex align-items-center justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-acent me-5 font-regular" aria-current="page" href="/index.html">الرئيسية</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-acent me-5 font-regular" href="guarantee.html">الضمانات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-acent me-5 font-regular" href="login.html">تسجيل الدخول</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link text-acent me-5 font-regular" href="#">تسجيل الخروج</a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <section class="login">
+        <div class="container">
+            <div class="card border-0 w-500 mx-auto">
+                <div class="d-flex flex-column align-items-center mb-4">
+
+                    <div class="d-flex flex-column align-items-center mb-4">
+                        <div class="profile-picture">
+                            <img src="assets/Images/user.webp" height="60px" class="of-contain" alt="">
+                        </div>
+                        <h3 class="font-lg mt-3 fw-bold">التحقق من إضافة ضمان جديد</h3>
+                    </div>
+                    <h3 class="font-lg mt-2 fw-bold">تم إرسال رمز التحقق الرجاء كتابة الرقم في الأسفل</h3>
+                    <h6 class="mt-4 font-normal fw-normal direction-ltr">+966-0556621421</h6>
+                </div>
+                <div class="verification-code">
+                    <form action="guarantee-pending.html"  class="mt-5">
+                      <div class="verification-code--inputs d-flex align-items-center justify-content-between direction-ltr mb-4">
+                        <input type="text" maxlength="1" />
+                        <input type="text" maxlength="1" />
+                        <input type="text" maxlength="1" />
+                        <input type="text" maxlength="1" />
+                      </div>
+                      <input type="hidden" id="verificationCode" />
+                      <div class="form-group">
+                          <button type="submit" class="btn bg-primary text-acent letter-spacing-normal mt-3 form-control">تحقق</button>
+                      </div>
+                      <div class="form-group text-center resend-link resend-link-1-div">
+                        <a href="#" class="resend_otp resend-link-1 text-primary letter-spacing-normal fw-bold font-regular">إعادة إرسال الرمز</a>
+                      </div>
+                      
+                      <div class="form-group">
+                        <div class="btnGroup">
+                            <span class="timer">
+                              <h4 class="font-regular fw-bold letter-spacing-normal text-center" id="counter"></h4>
+                            </span>
+                            <div class="form-group text-center resend-link">
+                                <a href="#" class="resend_otp resend-link-2 btn bg-primary text-acent form-control letter-spacing-normal fw-regular font-normal">إعادة إرسال الرمز</a>
+                            </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer position-relative bg-secondary">
+        <div class="container-fluid">
+            <div class="footer-logo">
+                <img src="assets/Images/Logo-2.png" height="50px" class="of-contain" alt="logo">
+            </div>
+            <div class="social text-md-center text-lg-center text-xl-center">
+                <ul class="d-flex mb-1 align-items-center justify-content-center justify-content-start-sm list-unstyled">
+                    <li class="me-1"><a href="#" class="text-acent"><i class="font-lg fab fa-whatsapp"></i></a></li>
+                    <li class="me-1"><a href="#" class="text-acent"><i class="font-lg fab fa-instagram"></i></a></li>
+                    <li class="me-1"><a href="#" class="text-acent"><i class="font-lg fab fa-facebook"></i></a></li>
+                    <li class="me-1"><a href="#" class="text-acent"><i class="font-lg fab fa-x-twitter"></i></a></li>
+                    <li class="me-1"><a href="#" class="text-acent"><i class="font-lg fab fa-snapchat-ghost"></i></a></li>
+                    <li class="me-1"><a href="#" class="text-acent"><i class="font-lg fab fa-youtube"></i></a></li>
+                    <li class="me-1"><a href="#" class="text-acent"><i class="font-lg fab fa-tiktok"></i></a></li>
+                </ul>
+                <span class="text-acent fw-lighter">@Okema_ksa</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-secondary text-center text-acent">
+        <h6 class="fw-lighter mb-0"><a href="#" class="text-decoration-underline text-acent">Okema.com.sa</a></h6>
+    </footer>
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/bootstrap/bootstrap.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
