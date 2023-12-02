@@ -514,10 +514,9 @@ header nav .nav-link:hover {
   color: #FF6C36 !important;
 }
 
-.slider img {
-  height: 90vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+.slider .slide-img {
+  height: 500px;
+  width: 100%;
 }
 
 section {

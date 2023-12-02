@@ -14,9 +14,9 @@ header{
     }
 }
 .slider{
-    img{
-        height: 90vh;
-        object-fit: cover;
+    .slide-img{
+        height: 500px;
+        width: 100%;
     }
 }
 
