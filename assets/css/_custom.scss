@@ -142,7 +142,10 @@ a{
 .border-radius-50{
     border-radius: 50px;
 }
-
+.btn-primary{
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+}
 .modal-dialog-md{
     max-width: 580px;
 }
@@ -463,8 +466,4 @@ p{
     .order-sm-10{
         order: 10;
     }
-}
-
-@media(min-width: 551px) and (max-width: 990px){
-    
 }

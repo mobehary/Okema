@@ -20,6 +20,31 @@ header{
     }
 }
 
+button{
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.modal{
+    .btn-close{
+        margin: unset !important;
+    }
+}
+
+.visa-card{
+    height: 320px;
+    width: 640px;
+    max-width: 100%;
+    // background-image: linear-gradient(to right, #202020, #2A2A2A);
+    background-color: #202020;
+    border-radius: 15px;
+    padding: 20px 30px;
+    .visa-logo{
+        height: 50px;
+    }
+}
+
 section{
     padding: 60px 0px;
     .tab-links{

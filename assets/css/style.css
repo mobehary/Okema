@@ -168,6 +168,11 @@ a {
   border-radius: 50px;
 }
 
+.btn-primary {
+  background-color: #FF6C36 !important;
+  border-color: #FF6C36 !important;
+}
+
 .modal-dialog-md {
   max-width: 580px;
 }
@@ -519,6 +524,26 @@ header nav .nav-link:hover {
   width: 100%;
 }
 
+button:focus {
+  box-shadow: none !important;
+}
+
+.modal .btn-close {
+  margin: unset !important;
+}
+
+.visa-card {
+  height: 320px;
+  width: 640px;
+  max-width: 100%;
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 20px 30px;
+}
+.visa-card .visa-logo {
+  height: 50px;
+}
+
 section {
   padding: 60px 0px;
 }
@@ -639,6 +664,11 @@ footer {
   padding: 10px 0 25px;
 }
 
+@media (max-width: 380px) {
+  .visa-card {
+    padding: 20px 10px;
+  }
+}
 @media (max-width: 520px) {
   .login .card {
     width: 100% !important;
@@ -656,6 +686,9 @@ footer {
   }
   .footer-logo img {
     height: 30px !important;
+  }
+  .visa-card .visa-logo {
+    height: 30px;
   }
 }
 @media (max-width: 767px) {

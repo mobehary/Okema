@@ -2,8 +2,6 @@ $('.resend_otp').click(function(e){
 	e.preventDefault();
 	var seconds = 60;
 	$('.resend_otp').css('pointer-events', 'none');
-	$('.resend-link-1-div').css('display', 'none');
-	$('.resend-link-2').css('display', 'block');
 	function tick() {
 	  var counter = document.getElementById("counter");
 	  seconds--;

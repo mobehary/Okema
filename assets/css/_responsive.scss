@@ -1,6 +1,9 @@
 // max only
 
-@media(max-width: 350px){
+@media(max-width: 380px){
+    .visa-card{
+        padding: 20px 10px;
+    }
     
 }
 @media(max-width: 520px){
@@ -23,6 +26,11 @@
     .footer-logo{
         img{
             height: 30px !important;
+        }
+    }
+    .visa-card{
+        .visa-logo{
+            height: 30px;
         }
     }
 }
