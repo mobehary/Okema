@@ -6,6 +6,7 @@
     <link rel="icon" href="assets/Images/Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/bootstrap/bootstrap-rtl.css">
+    <link rel="stylesheet" href="assets/css/select2.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Okema | أوكيما</title>
 </head>
@@ -248,18 +249,18 @@
                                                         <label class="fw-bold fs-sm mb-1" for="email">البريد الإلكتروني</label>
                                                         <input type="email" name="email" id="email" class="form-control" value="test@test.com">
                                                     </div>
-                                                    <div class="form-group text-start">
+                                                    <div class="form-group text-start countrey-select">
                                                         <label class="fw-bold fs-sm mb-1" for="country">الدولة</label>
-                                                        <select name="country" class="form-control form-select" id="country">
+                                                        <select name="country" data-live-search="true" class="form-control form-select" id="country">
                                                             <option selected="true" disabled="disabled" value="">إختر الدولة</option>
                                                             <option value="egypt">Egypt</option>
                                                             <option value="ksa">Saudi Arabia</option>
                                                             <option value="qatar">Qatar</option>
                                                         </select>
                                                     </div>
-                                                    <div class="form-group text-start">
+                                                    <div class="form-group text-start countrey-select">
                                                         <label class="fw-bold fs-sm mb-1" for="city">المدينة</label>
-                                                        <select name="city" class="form-control form-select" id="city">
+                                                        <select name="city" data-live-search="true" class="form-control form-select" id="city">
                                                             <option selected="true" disabled="disabled" value="">إختر المدينة</option>
                                                             <option value="egypt">Riyadh</option>
                                                             <option value="ksa">Jedda</option>
@@ -313,7 +314,7 @@
                                                     <label class="fw-bold fs-sm mb-1" for="carton-image">صورة الكرتون</label>
                                                     <input type="file" id="carton-image" class="form-control">
                                                 </div>
-                                                <div class="form-group text-start">
+                                                <div class="form-group text-start countrey-select">
                                                     <label class="fw-bold fs-sm mb-1" for="country">الدولة</label>
                                                     <select name="country" class="form-control form-select" id="country">
                                                         <option selected="true" disabled="disabled" value="">إختر الدولة</option>
@@ -322,7 +323,7 @@
                                                         <option value="qatar">Qatar</option>
                                                     </select>
                                                 </div>
-                                                <div class="form-group text-start">
+                                                <div class="form-group text-start countrey-select">
                                                     <label class="fw-bold fs-sm mb-1" for="city">المدينة</label>
                                                     <select name="city" class="form-control form-select" id="city">
                                                         <option selected="true" disabled="disabled" value="">إختر المدينة</option>
@@ -378,6 +379,7 @@
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/bootstrap/bootstrap.js"></script>
+    <script src="assets/js/select2.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

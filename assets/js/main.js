@@ -15,21 +15,23 @@ $('.resend_otp').click(function(e){
 	  }
 	}
 	tick();
-})
+});
+
+
+$(document).ready(function() {
+  $('.countrey-select select').select2();
+});
 
 
 
 var verificationCode = [];
 $(".verification-code input[type=text]").keyup(function (e) {
-  
   // Get Input for Hidden Field
   $(".verification-code input[type=text]").each(function (i) {
     verificationCode[i] = $(".verification-code input[type=text]")[i].value; 
     $('#verificationCode').val(Number(verificationCode.join('')));
-    //console.log( $('#verificationCode').val() );
+    
   });
-
-  //console.log(event.key, event.which);
 
   if ($(this).val() > 0) {
     if (event.key == 1 || event.key == 2 || event.key == 3 || event.key == 4 || event.key == 5 || event.key == 6 || event.key == 7 || event.key == 8 || event.key == 9 || event.key == 0) {
@@ -57,7 +59,3 @@ var $self = $(this);
     $clipboard.val($content);
 },100);
 });
-
-
-
-
